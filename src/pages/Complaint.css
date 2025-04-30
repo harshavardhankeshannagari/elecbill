@@ -1,0 +1,46 @@
+.complaint-list {
+  margin-top: 30px;
+}
+
+.complaint-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.complaint-list li {
+  background-color: #f9f9f9;
+  border-left: 6px solid transparent;
+  margin-bottom: 15px;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  transition: 0.3s ease;
+}
+
+.complaint-list li.pinned {
+  border-left-color: #ffca28;
+  background-color: #fffbe6;
+}
+
+.complaint-meta {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.complaint-meta button {
+  background-color: #2979ff;
+  color: white;
+  border: none;
+  padding: 4px 10px;
+  font-size: 0.85rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.complaint-meta button:hover {
+  background-color: #0053cb;
+}

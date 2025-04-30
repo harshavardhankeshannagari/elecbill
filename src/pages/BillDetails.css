@@ -1,0 +1,49 @@
+/* Add these styles to your existing CSS file (e.g., index.css) */
+
+.bill-details-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+  }
+  
+  .bill-summary {
+    margin-top: 20px;
+  }
+  
+  .bill-summary p {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
+  h3 {
+    margin-top: 20px;
+    font-size: 1.25rem;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
+  .buttons button {
+    width: 200px;
+    padding: 12px;
+    background-color: #2979ff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  .buttons button:hover {
+    background-color: #1565c0;
+  }
+  

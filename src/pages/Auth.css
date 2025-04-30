@@ -1,0 +1,50 @@
+/* Add these styles in your index.css file */
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f5f7fa;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 12px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2979ff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #1565c0;
+  }
+  
+  .message {
+    margin-top: 10px;
+    color: green;
+  }
+  
+  .link {
+    color: #2979ff;
+    cursor: pointer;
+  }
+  

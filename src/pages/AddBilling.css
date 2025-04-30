@@ -1,0 +1,209 @@
+/* src/components/AddBilling.css */
+
+.add-billing-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f4f7fb;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-billing-container h2 {
+    text-align: center;
+    color: #2979ff;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  
+  .billing-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .form-field label {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .form-field input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .form-field input:focus {
+    border-color: #2979ff;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .submit-button,
+  .cancel-button {
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button {
+    background-color: #2979ff;
+    color: white;
+  }
+  
+  .submit-button:hover {
+    background-color: #1c5bbd;
+  }
+  
+  .cancel-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .cancel-button:hover {
+    background-color: #e53935;
+  }
+  
+  .preview-section {
+    margin-top: 30px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .preview-section h3 {
+    text-align: center;
+    color: #2979ff;
+    margin-bottom: 15px;
+  }
+  
+  .bill-preview p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .bill-preview p strong {
+    color: #2979ff;
+  }
+  /* src/components/AddBilling.css */
+
+.bill-summary {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bill-summary h3 {
+    text-align: center;
+    color: #2979ff;
+    margin-bottom: 15px;
+  }
+  
+  .bill-summary p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .bill-summary p strong {
+    color: #2979ff;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    height: 8px;
+    background-color: #ddd;
+    margin-top: 20px;
+  }
+  
+  .progress-bar-fill {
+    width: 50%; /* Simulated progress bar width */
+    height: 100%;
+    background-color: #2979ff;
+    animation: progressBarAnimation 2s linear;
+  }
+  
+  @keyframes progressBarAnimation {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  /* src/styles/addbilling.css */
+
+.add-billing-container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-billing-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 12px 20px;
+    background-color: #2979ff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #1a60b9;
+  }
+  

@@ -1,0 +1,17 @@
+/* src/components/Toast.css */
+.toast {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4caf50;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    opacity: 0.9;
+    z-index: 1000;
+    transition: all 0.5s ease-in-out;
+  }
+  
